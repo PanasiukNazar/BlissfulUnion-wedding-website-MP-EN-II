@@ -281,6 +281,15 @@ h6,
     color: #ffffff;
 }
 
+@media (max-width: 772px) {
+    #contact-email h3 {
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        overflow: hidden;
+        width: 200px;
+    }
+}
+
 /*** About & Feature ***/
 .about-img,
 .feature-img {
