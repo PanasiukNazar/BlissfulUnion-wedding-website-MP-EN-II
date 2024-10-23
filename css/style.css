@@ -1,6 +1,6 @@
 /********** Template CSS **********/
 :root {
-    --primary: #00539cff;
+    --primary: #0088ff;
     --light: #f8f8f8;
     --dark: #252525;
 }
@@ -281,12 +281,19 @@ h6,
     color: #ffffff;
 }
 
+#contact-email .mobile {
+    display: none;
+}
+#contact-email .desctop {
+    display: block;
+}
+
 @media (max-width: 772px) {
-    #contact-email h3 {
-        text-overflow: ellipsis;
-        white-space: nowrap;
-        overflow: hidden;
-        width: 200px;
+    #contact-email .mobile {
+        display: block;
+    }
+    #contact-email .desctop {
+        display: none;
     }
 }
 
@@ -605,12 +612,12 @@ h6,
     display: none;
 }
 header i {
-    color: #00539cff;
+    color: #0088ff;
     font-size: 32px;
     text-align: center;
 }
 header h2 {
-    color: #00539cff;
+    color: #0088ff;
     font-weight: 500;
     text-align: center;
 }
@@ -618,7 +625,7 @@ header h2 {
     text-align: center;
 }
 .data p a {
-    color: #00539cff;
+    color: #0088ff;
     text-decoration: none;
     text-align: center !important;
 }
@@ -630,10 +637,10 @@ header h2 {
     text-align: center;
 }
 .buttons .cookie-button {
-    border: 2px solid #00539cff;
+    border: 2px solid #0088ff;
     color: #fff;
     padding: 8px 0;
-    background: #00539cff;
+    background: #0088ff;
     cursor: pointer;
     width: calc(100% / 2 - 10px);
     transition: all 0.5s ease;
@@ -642,14 +649,14 @@ header h2 {
 }
 .buttons #acceptBtn:hover {
     background-color: transparent;
-    color: #00539cff;
+    color: #0088ff;
 }
 #declineBtn {
     background-color: #fff;
-    color: #00539cff;
+    color: #0088ff;
 }
 #declineBtn:hover {
-    background-color: #00539cff;
+    background-color: #0088ff;
     color: #fff;
 }
 /* Footer Style */
